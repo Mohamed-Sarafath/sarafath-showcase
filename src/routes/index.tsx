@@ -158,7 +158,7 @@ function Index() {
         <div className="scroll-progress fixed left-0 top-0 z-50 h-[2px] w-full origin-left scale-x-0 bg-primary" />
 
         {/* Nav */}
-        <header className="fixed inset-x-0 top-0 z-40">
+        <header className="fixed inset-x-0 top-0 z-40 border-b border-border/40 bg-background/70 backdrop-blur-xl">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5">
             <a href="#top" className="nav-item font-signature text-2xl text-primary">
               Sarafath
