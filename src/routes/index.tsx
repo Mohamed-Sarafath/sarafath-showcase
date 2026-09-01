@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Preloader } from "@/components/Preloader";
 import { Cursor } from "@/components/Cursor";
-import portrait from "@/assets/portrait.asset.json";
+const PORTRAIT_URL = "/images/sarafath-portrait.png";
 import {
   certifications,
   education,
@@ -233,7 +233,7 @@ function Index() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-[2rem] border border-border">
                 <img
-                  src={portrait.url}
+                  src={PORTRAIT_URL}
                   alt="Mohamed Sarafath, Quantity Surveyor, on a construction site at dusk"
                   className="hero-photo h-[420px] w-full object-cover object-top md:h-[620px]"
                   data-speed="-0.06"
