@@ -64,7 +64,7 @@ function Index() {
 
       // Parallax layers
       gsap.utils.toArray<HTMLElement>("[data-speed]").forEach((el) => {
-        const speed = parseFloat(el.dataset.speed || "0");
+        const speed = parseFloat(el.dataset['speed'] || "0");
         gsap.to(el, {
           yPercent: speed * 100,
           ease: "none",
@@ -103,7 +103,7 @@ function Index() {
 
       // Counters
       gsap.utils.toArray<HTMLElement>(".counter").forEach((el) => {
-        const end = Number(el.dataset.value);
+        const end = Number(el.dataset['value']);
         const obj = { v: 0 };
         gsap.to(obj, {
           v: end,
