@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Mohamed Sarafath — Senior Quantity Surveyor" },
+      { name: "description", content: "Portfolio of Mohamed Sarafath, RICS-registered Senior Quantity Surveyor and Estimator." },
+      { name: "author", content: "Mohamed Sarafath" },
+      { property: "og:title", content: "Mohamed Sarafath — Senior Quantity Surveyor" },
+      { property: "og:description", content: "Portfolio of Mohamed Sarafath, RICS-registered Senior Quantity Surveyor and Estimator." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@sarafathqs" },
     ],
     links: [
       {
