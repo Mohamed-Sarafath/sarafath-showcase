@@ -440,6 +440,26 @@ function Index() {
             </p>
           </div>
         </section>
+
+        {/* Footer credit */}
+        <footer className="border-t border-border py-8">
+          <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 text-center md:flex-row md:text-left">
+            <p className="font-display text-xs tracking-[0.2em] text-muted-foreground uppercase">
+              &copy; {new Date().getFullYear()} Mohamed Sarafath. All rights reserved.
+            </p>
+            <p className="font-display text-xs tracking-[0.15em] text-muted-foreground">
+              Designed & developed by{" "}
+              <a
+                href="https://www.inzeedo.lk/?utm_source=portfolio&utm_medium=footer&utm_campaign=sarafath_credit"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary transition-colors hover:underline"
+              >
+                inzeedo
+              </a>
+            </p>
+          </div>
+        </footer>
       </div>
     </>
   );
