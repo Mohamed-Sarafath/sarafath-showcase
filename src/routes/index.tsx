@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Preloader } from "@/components/Preloader";
 import { Cursor } from "@/components/Cursor";
-import portrait from "@/assets/portrait.asset.json";
+const PORTRAIT_URL = "/images/sarafath-portrait.png";
 import {
   certifications,
   education,
